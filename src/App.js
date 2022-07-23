@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import logo from './images/foodlrlogo.png'
 function App() {
+  const myStyle={
+    backgroundImage:`url(${logo})`,
+            height:'150px',
+            width: '150px',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            };
   return (
-    <div className="App">Hello
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="App">
+      <header className='pageHeaded'>
+        <nav className='fNavBar'>
+          <div className='fLogo'>
+            <img src={logo} className="fLogoImg"/>
+          </div>
+        </nav>
       </header>
+
     </div>
   );
 }
