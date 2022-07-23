@@ -1,13 +1,6 @@
 import './App.css';
 import logo from './images/foodlrlogo.png'
 function App() {
-  const myStyle={
-    backgroundImage:`url(${logo})`,
-            height:'150px',
-            width: '150px',
-            backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat',
-            };
   return (
     <div className="App">
       <header className='pageHeaded'>
