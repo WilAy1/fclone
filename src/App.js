@@ -6,7 +6,7 @@ function App() {
       <header className='pageHeaded'>
         <nav className='fNavBar'>
           <div className='fLogo'>
-            <img src={logo} className="fLogoImg"/>
+            <img src={logo} className="fLogoImg" alt='Logo'/>
           </div>
         </nav>
       </header>
